@@ -1,0 +1,150 @@
+*{
+    padding: 0%;
+    margin: 0%;
+     box-sizing: border-box;
+     font-family: Matter Light, Matter, Roboto, Roboto Flex, Roboto Medium;
+}
+*::selection{
+    color: #fff;
+    background-color: #000;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main1{
+    width: 100%;
+    height: 100%;
+}
+.home{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    font-family: Matter;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    padding-top: 0px;
+    padding-left: 25px;
+    padding-right: 30px;
+}   
+.nav img{
+    width: 135px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.3vw;
+    letter-spacing: -1px;
+    gap: 15px;
+}
+.right button{
+    width: 36px;
+    margin-top: 3px;
+    font-size: 36px;
+    letter-spacing: -10px;
+    background:white;
+    border: white;
+}
+.homemain{
+    width: 100%;
+    height: 99vh;
+    padding: 11vw 10vw 11vw;
+    display: flex;
+    box-sizing: border-box;
+}
+.homemain h1{
+    font-family: Matter Light;
+    font-size: 8vw;
+    font-weight: 500;
+    letter-spacing: 0.5;
+    margin: 10px;
+    line-height: 1;
+}
+.homemain video{
+    object-fit: cover;
+    height: 110px;
+    border-radius: 100px;
+    width: 11vw;
+}
+.vid video{
+    width: 100%;
+    margin: 0%;
+}
+#fmain{
+    display: flex;
+    padding-left: 5vw;
+    height: 100vh;
+    width: 100%;
+}
+.fright{
+    width: 50%;
+    height: inherit;
+}
+.fleft{
+    width: 50%;
+    height:inherit;
+}
+.fleft video{
+    width: 100%;
+    height: 45vw;
+    padding: 80px;
+}
+.fright p{
+    font-family: Matter;
+    padding: 8vw 12vw 2vw 1vw;
+    font-size: 2vw;
+    font-weight: 400;
+}
+.fright button{
+    height: 13vw;
+    width: 28vw;
+    border-radius: 100px;
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+    background: transparent;
+}
+.fp{
+    width: 100%;
+     border-top-right-radius: 5vw;
+     border-top-left-radius: 5vw;
+    font-family: Matter Light;
+    background: rgb(23, 20, 20);
+}
+.fp h2{
+    padding: 8.5vw 11vw;
+    font-size: 9vw;  
+    font-weight: 400;
+    color: white;
+}
+.fp video{
+    object-fit: cover;
+    height: 11vw;
+    border-radius: 100px;
+    width: 15vw;    
+}
+.fp em{
+    vertical-align: 4vw;
+    font-weight: 100;
+    letter-spacing: -1.5px;
+}
+
+.op{
+    width: 100%;
+    height: 50vw;
+    /* border-top-right-radius: 5vw;
+    border-top-left-radius: 5vw; */
+    font-family: Matter Light;
+    background: rgb(255, 255, 255);
+    /* border: 2px solid black; */
+}
+.op h1{
+    padding: 15vw 12vw;
+    font-size: 10vw;  
+    font-weight: 200;
+}
+
